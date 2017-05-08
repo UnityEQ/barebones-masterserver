@@ -79,7 +79,7 @@ public class MiniPlayerController : NetworkBehaviour
         // Change colors
         var color = CurrentPlayerColor;
         Direction.color = new Color(color.r, color.g, color.b, 0.5f);
-        Shape.GetComponent<MeshRenderer>().material.color = color;
+//        Shape.GetComponent<MeshRenderer>().material.color = color;
 
         // Notify UI
         if (MiniGameUi.Instance != null)

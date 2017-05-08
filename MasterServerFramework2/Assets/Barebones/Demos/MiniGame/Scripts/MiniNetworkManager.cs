@@ -19,7 +19,7 @@ public class MiniNetworkManager : NetworkManager
         string weaponSprite, Transform position = null)
     {
         // Create an instance
-        var player = Instantiate(Resources.Load<MiniPlayerController>("Prefabs/MiniPlayer"));
+        var player = Instantiate(Resources.Load<MiniPlayerController>("Prefabs/MiniPlayer2"));
 
         if (position == null)
         {

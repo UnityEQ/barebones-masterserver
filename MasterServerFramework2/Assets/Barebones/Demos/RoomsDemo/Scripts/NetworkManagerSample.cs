@@ -9,8 +9,13 @@ using UnityEngine.Networking;
 public class NetworkManagerSample : NetworkManager
 {
     public UnetGameRoom GameRoom;
-
-    void Awake()
+	
+//	public NetworkManagerSample()
+//    {
+//		networkAddress = "1.1.1.1";
+//	}
+	
+	void Awake()
     {
         if (GameRoom == null)
         {

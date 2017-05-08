@@ -38,7 +38,7 @@ public class UnetGameRoom : NetworkBehaviour
 
     [Header("Room options")]
     [Tooltip("This address will be sent to clients with an access token")]
-    public string PublicIp = "xxx.xxx.xxx.xxx";
+    public string PublicIp = "158.69.221.200";
     public string Name = "Room Name";
     public int MaxPlayers = 5;
     public bool IsPublic = true;

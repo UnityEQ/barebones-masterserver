@@ -259,6 +259,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &23000012242219426
 MeshRenderer:
@@ -290,6 +291,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &23000012298210024
 MeshRenderer:
@@ -321,6 +323,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!33 &33000011686697930
 MeshFilter:
@@ -440,6 +443,7 @@ MonoBehaviour:
   m_RotationSyncCompression: 0
   m_SyncSpin: 1
   m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
   m_SnapThreshold: 5
   m_InterpolateRotation: 1
   m_InterpolateMovement: 1
@@ -463,7 +467,7 @@ MonoBehaviour:
   NamePrefab: {fileID: 114000011193756632, guid: 29a054c7db52e8649ac7ec22c123259a,
     type: 2}
   NameTransform: {fileID: 4000011292049504}
-  Shape: {fileID: 1000014219504404}
+  Shape: {fileID: 1552027401333134, guid: 128b6b032d83ee4419ac87bf068aa2a6, type: 2}
   Weapon: {fileID: 212000013327589192}
   Flag: {fileID: 1000014140683212}
 --- !u!143 &143000010048934216
@@ -513,11 +517,16 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5f5bd7747a88e5a4bb4a04799e5984ee, type: 3}
   m_Color: {r: 1, g: 0, b: 0.26896572, a: 0.497}
   m_FlipX: 0
   m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
 --- !u!212 &212000013327589192
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -548,8 +557,13 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300002, guid: 3a4d9ba19bbfd8241a2f4c89bf466de1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0

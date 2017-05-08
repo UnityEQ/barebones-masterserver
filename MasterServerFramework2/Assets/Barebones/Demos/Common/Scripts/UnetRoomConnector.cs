@@ -88,7 +88,8 @@ public class UnetRoomConnector : RoomConnector
         if (!NetworkManager.IsClientConnected())
         {
             // If we're not connected already
-            NetworkManager.networkAddress = access.RoomIp;
+            //NetworkManager.networkAddress = access.RoomIp;
+			NetworkManager.networkAddress = "158.69.221.200";
             NetworkManager.networkPort = access.RoomPort;
             NetworkManager.StartClient();
         }
@@ -108,6 +109,7 @@ public class UnetRoomConnector : RoomConnector
     public IEnumerator WaitForConnection(RoomAccessPacket access)
     {
         NetworkManager = NetworkManager ?? FindObjectOfType<NetworkManager>();
+		//NetworkManager.networkAddress = "158.69.221.200";
 
         Logger.Debug("Connecting to game server... " + NetworkManager.networkAddress + ":" +
                      NetworkManager.networkPort);

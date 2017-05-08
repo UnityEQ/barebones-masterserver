@@ -45,6 +45,7 @@ public class UnetServerStarter : MonoBehaviour
 
         MasterServerObject = MasterServerObject ?? FindObjectOfType<MasterServerBehaviour>();
         NetworkManager = NetworkManager ?? FindObjectOfType<NetworkManager>();
+//		NetworkManager.networkAddress = "158.0.0.1";
 
         var connection = GetConnection();
 
